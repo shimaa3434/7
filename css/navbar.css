@@ -1,0 +1,63 @@
+.header{
+    background: radial-gradient(rgb(240, 165, 234), rgb(171, 165, 219), rgb(211, 127, 207));
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.nav{
+    flex: 1; 
+    text-align: left;
+}
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-link:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.myrow{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.date h1{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    margin: 25px 0;
+}
+.date p{
+    color: #fff;
+    text-align: justify;
+}
+.btn{
+    display: block;
+    color: #fff;
+    background: #ff523b;
+    line-height: 1.8;
+    width: 200px;
+    padding: 8px 30px;
+    margin: 30px;
+    transition: all 0.4s;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn:hover{
+    color: rgb(206, 37, 228);
+    background-color: #fff;
+    border: 2px solid rgb(206, 37, 228);
+}
+.photo img{
+    max-width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+.menu-icon{
+    width: 28px;
+    margin-right: 20px;
+}

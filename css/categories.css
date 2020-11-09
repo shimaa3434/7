@@ -1,0 +1,130 @@
+
+.categories img{
+    width: 100%;
+    height: 300px;
+}
+.products{
+text-align: center;
+}
+
+.products img{
+    width: 100%;
+    height: 300px;
+}
+.pro-title{
+    margin: 0 auto 80px;
+    position: relative;
+    text-align: center;
+    color: rgb(34, 63, 194);
+    line-height: 60px;
+    text-shadow: 4px 4px 4px  #ccc;
+}
+.pro-title::after{
+    content: '';
+    width: 20%;
+    height: 5px;
+    background-color: rgb(240, 165, 234);
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pro-name{
+    color: rgb(206, 37, 228);
+    font-weight: normal;
+}
+.price{
+    font-size: 14px;
+    color: rgb(206, 37, 228);
+}
+.rating i{
+    color: rgb(238, 223, 13);
+}
+.move:hover{
+    transform: scale(1.1);
+}
+
+.offer{
+    background: radial-gradient(rgb(240, 165, 234), rgb(171, 165, 219), rgb(211, 127, 207));
+    padding: 30px 0;
+}
+small{
+    color: #555;
+}
+.testimonial .ds{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 #ddd;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+.testimonial .ds:hover{
+    transform: translateY(-10px);
+}
+.testimonial .ds img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.testimonial .ds .fa-quote-right{
+    font-size: 34px;
+    color: #ff523b;
+}
+.testimonial .ds p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.testimonial .ds h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+.brands{
+    margin: 100px auto;
+}
+.brands img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.brands img:hover{
+    filter: grayscale(0);
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer h3{
+    color:#fff ;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.footer img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer .app-logo{
+    margin-top: 20px;
+}
+.footer .app-logo img{
+    width: 120px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.footer .copyright{
+    text-align: center;
+}
